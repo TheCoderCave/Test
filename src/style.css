@@ -1,0 +1,59 @@
+.color-body{
+    height: 100vh;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.font{
+    font-family: 'Almarai', sans-serif;
+    font-size:  20px;
+    color: white;
+}
+.rectangle {
+    height: 500px;
+    border-radius: 20px;
+    background-color: #ffffff51;
+    box-shadow: 0 0 10px white;
+    color: white;
+}
+.btn-style{
+    width:200px;
+    border-radius: 8px;
+    color: white;
+    background-color: #224f61;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    box-shadow: 0 0 10px;
+}
+.image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+.shadow{
+    box-shadow: 0 0 30px white;
+    border-radius: 10px;
+}
+.all{
+    overflow: scroll;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: outset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+  }
